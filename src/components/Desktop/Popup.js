@@ -23,22 +23,22 @@ const Popup = ({ onClose }) => {
       <div className={`popup-container ${showMessage ? "message-mode" : ""}`} ref={popupRef}>
         {!showMessage ? (
           <img
-            src="./image.png" 
+            src="/my-portfolio/oggymeme.png"
             className="popup-meme"
             alt="meme"
             onClick={() => setShowMessage(true)}
           />
         ) : (
           <div className="popup-message">
-            <h2 className="popup-title">👀 Oops, you caught me!</h2>
+            <h2 className="popup-title">👀Hey! This is my digital playground!</h2>
             <p className="popup-text">
-              Typing furiously, explaining things (mostly to myself)... welcome to my organized chaos! 🚀💻  
+              Where bugs are investigated, features evolve, and curiosity drives everything. 🧠⚙️ 
             </p>
             <p className="popup-text">
-              If you spot a bug… shhh, it's a feature. 😉🐞  
+              🚀 Go ahead. Click around. Explore. Break things(politely).
             </p>
             <button className="popup-close-btn" onClick={onClose}>
-              🚀 Got it, time to explore!
+              🚀 Go Ahead!
             </button>
           </div>
 

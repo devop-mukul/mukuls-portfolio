@@ -9,19 +9,19 @@ import SearchBar from "./SearchBar";
 import { FaSearch } from "react-icons/fa";
 
 const apps = [
-  { id: 1, name: "LinkedIn", icon: linkedinIcon, link: "https://www.linkedin.com/in/sneha-k-82aa751ba/" },
-  { id: 2, name: "GitHub", icon: githubIcon, link: "https://github.com/snehakarki" },
+  { id: 1, name: "LinkedIn", icon: linkedinIcon, link: "https://www.linkedin.com/in/mukulkmr/" },
+  { id: 2, name: "GitHub", icon: githubIcon, link: "https://github.com/devop-mukul" },
   { id: 3, name: "Resume", icon: pdfIcon, link: process.env.PUBLIC_URL + "/resume.pdf" },
-  { id: 4, name: "Email", icon: mailicon, link: "mailto:sneha25karki@gmail.com" },
+  { id: 4, name: "Email", icon: mailicon, link: "mailto:mails2mukull@gmail.com" },
 ];
 
 // Fun responses for different search queries
 const searchResponses = {
-  "hello": "Hi there! I'm Sneha Karki's portfolio assistant! Ask me about her skills, projects, or experience.",
-  "skills": "Sneha is skilled in React, JavaScript, Python, and more! Check out her projects to see her work.",
+  "hello": "Hi there! I'm Mukul's portfolio assistant! Ask me about his skills, projects, or experience.",
+  "skills": "Mukul is skilled in Java, OOPS, MySQL, and more! Check out his projects to see his work.",
   "projects": "Here are my projects! Take a look at what I've been working on.",
-  "experience": "Sneha has experience in web development, mobile apps, machine learning and more. Check out her resume for details.",
-  "contact": "You can reach Sneha through LinkedIn, GitHub, or by email. Just tap on the respective icons below!",
+  "experience": "Mukul has experience in web development, mobile apps and more. Check out his resume for details.",
+  "contact": "You can reach Mukul through LinkedIn, GitHub, or by email. Just tap on the icon!",
   "default": "I'm not sure about that. Try asking about skills, projects, or experience!"
 };
 

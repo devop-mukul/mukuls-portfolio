@@ -59,13 +59,13 @@ const StartMenu = ({ isOpen, onClose }) => {
       <div className="start-menu-footer"> 
         <div className="social-icons">
           <span className="mss-text">Connect with me :</span>  
-          <a href="mailto:sneha25karki@gmail.com" target="_blank" rel="noopener noreferrer">
+          <a href="mailto:mails2mukull@gmail.com" target="_blank" rel="noopener noreferrer">
             <FaEnvelope className="social-icon" />
           </a>
-          <a href="https://www.linkedin.com/in/sneha-k-82aa751ba/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/mukulkmr/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin className="social-icon" />
           </a>
-          <a href="https://www.instagram.com/s._.karki" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/mukul.kmr/" target="_blank" rel="noopener noreferrer">
             <FaInstagram className="social-icon" />
           </a>
         </div>

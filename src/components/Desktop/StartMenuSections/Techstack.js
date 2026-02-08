@@ -3,18 +3,18 @@ import "../../../styles/Techstack.css";
 
 const TechStack = () => {
   const techStack = [
-    { name: "C++", img: "c++.png", usedIn: "College CourseWork" },
-    { name: "C", img: "C.png", usedIn: "College CourseWork" },
     { name: "Java", img: "java.png", usedIn: "College CourseWork" },
-    { name: "Dart", img: "dart.png", usedIn: "Thaiseva App (Cehpoint)" },
-    { name: "Python", img: "python.png", usedIn: "PayPal Intern Project" },
-    { name: "Flutter", img: "flutter.png", usedIn: "Thaiseva App (Cehpoint)" },
+    { name: "MySQL", img: "mysql.png", usedIn: "Banking System CLI" },
+    { name: "Javascript", img: "javascript.png", usedIn: "Coursework and Projects" },
     { name: "React.js", img: "reactjs.png", usedIn: "Portfolio Website" },
+    { name: "Node.js", img: "nodejs.png", usedIn: "Backend Development"},
+    { name: "MongoDB", img: "mongodb.png", usedIn: "Database Management"},
     { name: "TensorFlow", img: "tensorflow.png", usedIn: "Image Processing Projects" },
-    { name: "Redis", img: "redis.png", usedIn: "PayPal Intern Project" },
-    { name: "Firebase", img: "firebase.png", usedIn: "Thaiseva App (Cehpoint)" },
-    { name: "MySQL", img: "mysql.png", usedIn: "Paypal Intern Project" },
-    { name: "Android Development", img: "android.png", usedIn: "Thaiseva App (Cehpoint)"},
+    { name: "Android Development", img: "android.png", usedIn: "Object Detection App"},
+    { name: "HTML-5", img: "html-5.png", usedIn: "Coursework and Projects" },
+    { name: "CSS-3", img: "css-3.png", usedIn: "Coursework and Projects"},
+    { name: "Postman", img: "postman.png", usedIn: "API Testing and Development" },  
+    { name: "Github", img: "github2.png", usedIn: "Project Version Control" },
   ];
 
   return (
@@ -23,7 +23,7 @@ const TechStack = () => {
       <div className="tech-container">
         {techStack.map((tech) => (
           <div key={tech.name} className="tech-box">
-            <img src={`./assets/${tech.img}`} alt={tech.name} className="tech-icon" />
+            <img src={`${process.env.PUBLIC_URL}/assets/${tech.img}`} alt={tech.name} className="tech-icon" />
             <div className="tech-info">
               <p className="tech-name">{tech.name}</p>
               <p className="tech-project">{tech.usedIn}</p>

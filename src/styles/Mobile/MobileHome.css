@@ -23,7 +23,7 @@
     margin-top: clamp(16px, 4vw, 20px);
   }
   .mobile-home {
-    background: url("../../assets/mobbcg.jpg") no-repeat center center/cover;
+    background: url("../../assets/windows11mobilebg.png") no-repeat center center/cover;
     min-height: 100vh;
     height: auto;
     display: flex;

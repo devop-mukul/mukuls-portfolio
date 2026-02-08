@@ -76,8 +76,8 @@ const Taskbar = ({ openWindows, onRestore, onClose }) => {
       </div>
 
       <div className="right-section">
-        <span>{time.toLocaleDateString()}</span>
-        <span>{time.toLocaleTimeString()}</span>
+        <span>{time.toLocaleDateString(undefined, { weekday: "long", year: "numeric", month: "long", day: "numeric" })}</span>
+        <span>{time.toLocaleTimeString(undefined, { hour: "2-digit", minute: "2-digit" })}</span>
       </div>
 
       <StartMenu isOpen={startMenuOpen} onClose={handleStartMenuClose} />

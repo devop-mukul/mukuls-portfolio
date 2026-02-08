@@ -35,7 +35,7 @@ const TopBar = () => {
     const dayName = days[date.getDay()];
     const day = date.getDate();
     const month = months[date.getMonth()];
-    return `${dayName}, ${day} ${month}`;
+    return `${day}, ${dayName} ${month}`;
   };
 
   return (

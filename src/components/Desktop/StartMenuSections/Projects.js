@@ -3,49 +3,47 @@ import "../../../styles/Projects.css";
 
 const projectsData = [
   {
-    title: "Music Genre Recommendation System",
-    techStack: "Python, Librosa, Scikit-learn, XGBoost",
-    date: "April 2024",
+    title: "Braille Recognition - Machine Learning Project",
+    techStack: "Python, Scikit-learn, YOLOv11, Pyttsx3, Streamlit",
+    date: "February 2026",
     details: [
-      "Built a machine learning system to classify and recommend music genres using audio features.",
-      "Used Librosa for audio preprocessing and feature extraction from the GTZAN dataset.",
-      "Applied PCA and heatmaps for data visualization and feature analysis.",
-      "Trained multiple models, with XGBoost achieving 90.09% accuracy in genre classification.",
-      "Developed a recommendation engine using cosine similarity to suggest similar tracks."
+      "Developed a Braille Recognition System to convert embossed Braille characters into digital text using image processing techniques.",
+      "Implemented Braille dot detection and segmentation for accurate character recognition under varying conditions.",
+      "Built an end-to-end recognition pipeline with scope for real-time processing and accessibility applications.",
+      "Used Streamlit for a user-friendly interface and Pyttsx3 for text-to-speech conversion, enhancing accessibility for visually impaired users."],
+  },
+  {
+    title: "Banking System CLI - Java Project",
+    techStack: "Java, OOPS, MySQL",
+    date: "November 2025",
+    details: [
+      "Built a Java-based CLI banking system using OOP principles supporting account creation, deposits, withdrawals, fund transfers, and balance checks.",
+      "Implemented authentication, security PIN validation, and persistent data storage in MySQL through JDBC with prepared statements to ensure secure SQL operations and prevent SQL injection.",
+      "Designed modular services for User, Accounts, and Transactions with reusable DB utilities, unique account number generation, and transaction integrity checks for scalable and maintainable architecture.",
+      "Provided a user-friendly CLI interface with clear prompts, error handling, and transaction history display for an intuitive banking experience."
     ],
   },
   {
-    title: "Medical AI - Chest X-ray Classification",
-    techStack: "Python, Scikit-learn, XGBoost, Matplotlib",
-    date: "January 2024",
+    title: "Mausam App - Weather Forecasting Application",
+    techStack: "Kotlin, Java, Android Studio",
+    date: "November 2025",
     details: [
-      "Built a binary classification model to detect Atelectasis from chest X-ray images.",
-      "Visualized prediction confidence using histograms and analyzed threshold-based performance.",
-      "Achieved 94% sensitivity and 72% overall accuracy with an AUC of 0.805.",
-      "Used confidence score analysis to understand false positives and false negatives.",
-      "Plotted ROC curve and tuned threshold for optimal specificity-sensitivity tradeoff."
+      "Developed a weather application using Kotlin in Android Studio, providing real-time weather updates via API integration.",
+      "Implemented location-based forecasting with a clean, user-friendly UI and efficient data handling.",
+      "Integrated error handling and network optimization to ensure reliable performance across devices."
     ],
   },
   {
-    title: "Companion App - Mental Health Tracking App",
-    techStack: "Flutter, Firebase, Android Studio",
-    date: "June 2023",
+    title: "Android App Object Detection",
+    techStack: "Kotlin, Java, Android Studio",
+    date: "April 2025",
     details: [
-      "Created an Android application using Dart, Flutter, and Android Studio that provides users with utilities for mental well-being.",
-      "Implemented features like water reminder, to-do list, breathing exercises, and therapist booking.",
-      "Used Cloud Firestore for real-time data handling and Firebase Authentication for secure login."
+      "Trained a custom YOLOv8 model and exported it in .tfite format for mobile deployment.",
+      "Integrated the model into an Android app using TensorFlow Lite for real-time object detection.",
+      "Configured and deployed the application using Android Studio, achieving efficient on-device inference",
+      "Implemented a user-friendly interface for seamless interaction and real-time feedback during object detection."
     ],
-  },
-  {
-    title: "Font Recognition - Using Machine Learning",
-    techStack: "Python, Image Classification",
-    date: "January 2023",
-    details: [
-      "Designed a deep learning model for font detection.",
-      "Used a CNN model to classify images into five different font types: Lato, Raleway, Roboto, Sansation, and Walkway.",
-      "Implemented image augmentation techniques to diversify the dataset."
-    ],
-  },
+  }
 ];
 
 const Projects = () => {

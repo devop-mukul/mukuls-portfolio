@@ -25,11 +25,11 @@ const ProfileModal = ({ isOpen, onClose }) => {
         </div>
         <div className="profile-container">
           <div className="profile-pic-container">
-            <img src="./profile.jpg" alt="Sneha Karki" className="profile-pic" />
+            <img src="./profile.jpg" alt="Mukul Kumar" className="profile-pic" />
           </div>
-          <h1 className="profile-name">Sneha Karki</h1>
+          <h1 className="profile-name">Mukul Kumar</h1>
           <p className="current-role">
-            <FaBriefcase /> Upcoming Software Engineer @ <strong>PayPal</strong>
+            <FaBriefcase /> Aspiring Software Engineer
           </p>
 
           <p className="bio">
@@ -39,10 +39,10 @@ const ProfileModal = ({ isOpen, onClose }) => {
 
           <div className="education-location">
             <p>
-              <FaUniversity className="edu-icon" /> <strong>Graphic Era University</strong> (BTech CSE '25)
+              <FaUniversity className="edu-icon" /> <strong>Galgotias University</strong> (BTech CSE '26)
             </p>
             <p>
-              <FaMapMarkerAlt className="location-icon" /> Hyderabad, India
+              <FaMapMarkerAlt className="location-icon" /> Greater Noida, India
             </p>
           </div>
 
@@ -53,7 +53,7 @@ const ProfileModal = ({ isOpen, onClose }) => {
                 <FaCode className="interest-icon" /> <span>Development</span>
               </div>
               <div className="interest-item">
-                <FaYarn className="interest-icon" /> <span>Crocheting</span>
+                <FaYarn className="interest-icon" /> <span>Making Music</span>
               </div>
               <div className="interest-item">
                 <FaPen className="interest-icon" /> <span>Writing</span>
