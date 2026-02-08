@@ -58,7 +58,7 @@ New projects, features, and improvements are added as I learn and build more.
 
 - **Email:** mails2mukull@gmail.com  
 - **GitHub:** https://github.com/devop-mukul  
-- **LinkedIn:** (add your LinkedIn link here)
+- **LinkedIn:** https://www.linkedin.com/in/mukulkmr/
 
 ---
 
