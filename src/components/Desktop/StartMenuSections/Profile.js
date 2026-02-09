@@ -6,7 +6,11 @@ const Profile = () => {
   return (
     <div className="profile-section">
       <div className="desktop-profile-pic-container">
-        <img src="/my-portfolio/profile.jpg" alt="Mukul Kumar" className="desktop-profile-pic" />
+        <img
+          src={`${process.env.PUBLIC_URL}/profile.jpg`}
+          alt="Mukul Kumar"
+          className="desktop-profile-pic"
+        />
       </div>
       <h1 className="desktop-profile-name">Mukul Kumar</h1>
       <p className="desktop-current-role">

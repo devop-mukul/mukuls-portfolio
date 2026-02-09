@@ -23,7 +23,7 @@ const Popup = ({ onClose }) => {
       <div className={`popup-container ${showMessage ? "message-mode" : ""}`} ref={popupRef}>
         {!showMessage ? (
           <img
-            src="/my-portfolio/oggymeme.png"
+            src={`${process.env.PUBLIC_URL}/oggymeme.png`}
             className="popup-meme"
             alt="meme"
             onClick={() => setShowMessage(true)}

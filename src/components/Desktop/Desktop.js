@@ -11,7 +11,7 @@ const Desktop = () => {
   const [windowRefs, setWindowRefs] = useState({});
 
 const icons = [
-  { id: "resume", name: "Resume", icon: resumeIcon, url: "/my-portfolio/resume.pdf" },
+  { id: "resume", name: "Resume", icon: resumeIcon, url: `${process.env.PUBLIC_URL}/resume.pdf` },
   { id: "projects", name: "Github", icon: githubIcon, url: "https://github.com/devop-mukul" },
   { id: "leetcode", name: "Leetcode", icon: leetcodeIcon, url: "https://leetcode.com/u/DevMukul/" },
 ];
