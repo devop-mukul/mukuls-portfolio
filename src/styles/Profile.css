@@ -107,7 +107,7 @@
     border-radius: 8px;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 5px;
     font-size: 14px;
     color: #eee;
     transition: all 0.3s ease-in-out;
@@ -121,7 +121,7 @@
 .desktop-interest-item .interest-icon {
     transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
 }
-  
+
 .desktop-interest-item:hover .interest-icon {
     transform: rotate(10deg) scale(1.2);
     color: #99c0ff;
