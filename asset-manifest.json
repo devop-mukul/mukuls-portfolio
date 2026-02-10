@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/mukuls-portfolio/static/css/main.de90306f.css",
-    "main.js": "/mukuls-portfolio/static/js/main.5bcc638a.js",
+    "main.js": "/mukuls-portfolio/static/js/main.9f8af46f.js",
     "static/js/453.acca0757.chunk.js": "/mukuls-portfolio/static/js/453.acca0757.chunk.js",
     "static/media/windows11bg2.jpg": "/mukuls-portfolio/static/media/windows11bg2.c850391e8b8fe4d798d6.jpg",
     "static/media/windows11mobilebg.png": "/mukuls-portfolio/static/media/windows11mobilebg.5ca724ada5b23288f492.png",
     "static/media/github_icon.png": "/mukuls-portfolio/static/media/github_icon.82f9dcd194f53fd9416f.png",
     "index.html": "/mukuls-portfolio/index.html",
     "main.de90306f.css.map": "/mukuls-portfolio/static/css/main.de90306f.css.map",
-    "main.5bcc638a.js.map": "/mukuls-portfolio/static/js/main.5bcc638a.js.map",
+    "main.9f8af46f.js.map": "/mukuls-portfolio/static/js/main.9f8af46f.js.map",
     "453.acca0757.chunk.js.map": "/mukuls-portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.de90306f.css",
-    "static/js/main.5bcc638a.js"
+    "static/js/main.9f8af46f.js"
   ]
 }
