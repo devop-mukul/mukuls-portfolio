@@ -33,8 +33,8 @@ const ProfileModal = ({ isOpen, onClose }) => {
           </p>
 
           <p className="bio">
-            I love building apps that solve real problems and exploring AI-driven solutions. 
-            Skilled in React, Python, and Flutter, I create seamless, efficient, and intelligent applications.
+            I like building things people can actually use, from Android apps and backend systems to interactive web projects.
+This portfolio showcases how I approach problem-solving, write clean code, and learn by building real systems.
           </p>
 
           <div className="education-location">
